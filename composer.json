@@ -1,0 +1,58 @@
+{
+  "name": "tonini46/laravel-hooks-plus",
+  "description": "The WordPress filter, action system in Laravel",
+  "keywords": [
+        "laravel",
+        "wordpress",
+        "action",
+        "filter",
+        "action",
+        "filters",
+        "actions",
+        "hook",
+        "hooks",
+        "perfex crm"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Swivernet",
+            "email": "swivernet@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3|^8.0",
+        "laravel/framework": "^5.7|^6.0|^7.0|^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+    "orchestra/testbench": "~3.7|^4.0|^5.0|^6.0|^7.0",
+    "phpunit/phpunit": "^9.5"
+  },
+    "autoload": {
+        "psr-4": {
+            "Tonini46\\LaravelHooksPlus\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tonini46\\LaravelHooksPlus\\Test\\": "tests",
+            "Tonini46\\LaravelHooksPlus\\Test\\App\\": "tests/laravel/app"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tonini46\\LaravelHooksPlus\\LaravelHooksPlusServiceProvider"
+            ]
+        }
+    }
+}

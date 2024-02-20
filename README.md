@@ -15,7 +15,7 @@ The WordPress filters, actions system in Laravel.
 ## Installation
 
 ```bash
-composer require millat/laravel-hooks
+composer require tonini46/laravel-hooks
 ```
 **DONE!** Now you can use laravel-hooks
 

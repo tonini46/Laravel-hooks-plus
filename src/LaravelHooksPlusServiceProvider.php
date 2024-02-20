@@ -4,7 +4,7 @@ namespace Tonini46\LaravelHooksPlus;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
-use Tonini46\LaravelHooksPlus\Hooks\Hooks;
+use Tonini46\LaravelHooksPlus\Hooks;
 
 class LaravelHooksPlusServiceProvider extends ServiceProvider
 {

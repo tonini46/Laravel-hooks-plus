@@ -1,4 +1,4 @@
-# Laravel Hooks
+# Laravel Hooks Plus
 
 The WordPress filters, actions system in Laravel.
 

@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 use Tonini46\LaravelHooksPlus\Hooks\Hooks;
 
-class LaravelHooksServiceProvider extends ServiceProvider
+class LaravelHooksPlusServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
